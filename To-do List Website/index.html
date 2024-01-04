@@ -1,0 +1,127 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" href="./to-do-list.png" />
+  </head>
+  <header>
+    <nav>
+      <img src="./to-do-list.png" alt="icon" width="40" height="40" />
+      <h4>To-Do List</h4>
+        <ul>
+          <li>
+            <a href="#home">
+              <h3>Home</h3>
+            </a>
+          </li>
+          <li>
+            <a href="#about">
+              <h3>About</h3>
+            </a>
+          </li>
+          <li>
+            <a href="#foot">
+              <h3>Contact</h3>
+            </a>
+          </li>
+          <li>
+            <a href="#login">
+              <h3>Login</h3>
+            </a>
+          </li>
+        </ul>
+    </nav>
+    <hr />
+  </header>
+  <body id="home">
+    <div id="todo">
+      <h2>To-Do Add</h2>
+      <div id="todo-body">
+        <div id="todo-title">
+          <input type="text" name="title" id="title" placeholder="Title" />
+        </div>
+        <div id="todo-description">
+          <input
+            type="text-area"
+            name="description"
+            id="description"
+            placeholder="Description" />
+        </div>
+        <span id="todo-add"><button>Add</button></span>
+        <span id="todo-done"><button>Done</button></span>
+      </div>
+    </div>
+    <hr />
+    <div id="todostore">
+      <div id="todoitem">
+        <h2>To-Do Items</h2>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Demo Tilte</h5>
+            <hr />
+            <p class="card-text">Demo Task</p>
+          </div>
+          <div class="card-button">
+            <button>Done</button>
+            <button style="background-color:#f3758e";">Delete</button>
+          </div>
+        </div>
+      </div><hr>
+      <div id="tododone">
+        <h2>To-Do Done</h2>
+        <div class="card-done">
+          <div class="card-done-body">
+            
+            <h5 class="card-done-title">Demo Tilte</h5>
+            <hr>
+            <p class="card-done-text">Demo Task</p>
+          </div>
+          <div class="card-done-checkbox">
+            <input type="checkbox" name="done" id="done">
+            </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="about">
+      <h3>ABOUT</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores aperiam quaerat, quae dignissimos earum assumenda eaque, ipsam nemo, pariatur qui quidem repudiandae! Quibusdam unde laborum esse! Itaque nostrum vel fugiat maiores consectetur quisquam debitis, voluptatem ratione fuga pariatur deleniti excepturi non quos aut a autem esse at reiciendis voluptatum dicta, iusto, eos aspernatur quam? Perspiciatis qui iste fugiat asperiores iusto et voluptatibus, adipisci laborum necessitatibus quaerat. Dignissimos corporis error, quas illo tenetur odio, dolorem culpa ducimus modi doloribus aperiam tempore, quo amet minima! Voluptatum, eius! Exercitationem itaque quam ducimus fugit laborum? Iste nesciunt fugit, magni consectetur ad itaque sequi!</p>
+    </div>
+    <footer id="foot">
+      <h2>CONTACT</h2>
+          <form id="contactForm">
+            <!-- Name input -->
+            <div class="name">
+              <!-- <div><label id="name">Name</label></div> -->
+              <input id="name" type="text" placeholder="Name" />
+            </div>
+            <!-- Email address input -->
+            <div class="email">
+              <div>
+              <!-- <label class="form-label" for="emailAddress">Email Address</label></div> -->
+              <input id="emailAddress" type="email" placeholder="Email Address" />
+            <!-- </div> -->
+            <!-- Message input -->
+            <div class="message">
+              <!-- <div><label id="message">Message</label></div> -->
+              <textarea id="message" type="text" placeholder="Message"></textarea>
+            </div>
+            <!-- Form submit button -->
+            <div class="submit">
+              <button id="submit" type="submit">Submit</button>
+            </div>
+          </form>
+          <br>
+          <hr>
+          <div style="background-color: black; opacity:70%">
+            @copywrite "Manav Gathibandhe"
+          </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

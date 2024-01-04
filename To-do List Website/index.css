@@ -1,0 +1,144 @@
+*{
+    align-items: center;
+    margin: 1px;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: #ffffe7;
+}
+nav{
+    display: flex;
+    flex-direction: row;align-items:center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    
+    margin: 5px;
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    color: whitesmoke;
+    background-color: #000;
+    border: gray solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+nav button{
+    margin: 0%;
+    padding: 0%;
+}
+#todo{
+    margin: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    border: 2px solid gray;
+    border-radius: 7px;
+    padding-bottom: 3px;
+}
+#title{
+    width: 80%;
+    height: 30px;
+}
+#description{
+    width: 80%;
+    height: 30px;
+}
+#todo-add button, #todo-done button{
+    color: black;
+    background-color:rgb(146, 249, 146);
+    border: gray solid 2px;
+    border-radius: 5px;
+    width: 50px;
+    padding: 5px;
+}
+#todostore{
+    display: inline-flex;
+    width: 100%;
+}
+#todoitem{
+    width: 50%;
+    margin: 1% ;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+.card{
+    display: flex;
+    border: 1px solid blue;
+    margin: 20px;
+}
+.card-body{
+    width: 90%;
+    /* border: 1px solid; */
+}
+.card-title{
+    height: 30px;
+    font-size: x-large;
+}
+.card-text{
+    height: 30px;
+    font-size:large;
+}
+.card button {
+    color: black;
+    background-color:cyan;
+    border: gray solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#tododone{
+    width: 50%;
+    margin: 1% ;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+.card-done{
+    display: flex;
+    border: 1px solid blue;
+    margin: 20px;
+}
+.card-done-body{
+    width: 90%;
+    /* border: 1px solid; */
+}
+.card-done-title{
+    height: 30px;
+    font-size: x-large;
+}
+.card-done-text{
+    height: 30px;
+    font-size:large;
+}
+.card-done-checkbox{
+    color: black;
+    background-color:cyan;
+    /* background-color: rgb(146, 249, 146); */
+    border: gray solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 40px;
+}
+#about{
+    margin: 10px;
+    background-color: #000;
+    color: whitesmoke;
+    background-color: #000;
+    border: gray solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#foot{
+    /* width: 100%; */
+    margin: 10px;
+    /* margin-top: 300px; */
+    padding: 1%;
+    background-color: blueviolet;
+    /* opacity: 75%; */
+    color: aquamarine;
+    border: 2px solid whitesmoke;
+}
